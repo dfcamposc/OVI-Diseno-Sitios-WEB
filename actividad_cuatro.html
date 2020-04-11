@@ -2,63 +2,104 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta charset="utf-8">
-	<title>OVI - Diseño de Sitios WEB</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <title>OVI - Diseño de Sitios WEB</title>
 </head>
 
 <body>
-	<header>
-		<div>
-			<p>
-				<img src="img/Logo1.png" width="100%" height="10%">
-			</p>
-		</div>
-		<!--Inicio de Menu-->
-		<nav class="navegacion">
-			<ul class="menu">
-				<li><a href="Index.html">Inicio</a></li>
-				<li><a href="#">Lecturas</a>
-					<ul class="submenu">
-						<li><a href="lectura_uno.html">HTML5</a></li>
-						<li><a href="lectura_dos.html">CSS3</a></li>
-						<li><a href="lectura_tres.html">POO</a></li>
-						<li><a href="lectura_cuatro.html">METODOS DE ORDENAMIENTO</a></li>
-						<li><a href="lectura_cinco.html">JAVASCRIPT</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Multimedia</a></li>
-				<li><a href="#">Actividades</a>
-					<ul class="submenu">
-						<li><a href="actividad_uno.html">Actividad #1</a></li>
-						<li><a href="actividad_dos.html">Actividad #2</a></li>
-						<li><a href="actividad_tres.html">Actividad #3</a></li>
-						<li><a href="actividad_cuatro.html">Actividad #4</a></li>
-					</ul>
-				</li>
-				<li><a href="participantes.html">Participantes</a></li>
-			</ul>
-		</nav>
-		<!--Fin de Menu-->
-	</header>
-	<div class="lectura">
+    <div class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Logo1.png" class="d-block w-100" alt="Logo UNAD">
+            </div>
+        </div>
+    </div>
+    <header>
+        <!--Inicio de Menu-->
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="#">Lecturas</a>
+                    <ul class="submenu">
+                        <li><a href="lectura_uno.html">HTML5</a></li>
+                        <li><a href="lectura_dos.html">CSS3</a></li>
+                        <li><a href="lectura_tres.html">POO</a></li>
+                        <li><a href="lectura_cuatro.html">METODOS DE ORDENAMIENTO</a></li>
+                        <li><a href="lectura_cinco.html">JAVASCRIPT</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Multimedia</a></li>
+                <li><a href="#">Actividades</a>
+                    <ul class="submenu">
+                        <li><a href="actividad_uno.html">Actividad #1</a></li>
+                        <li><a href="actividad_dos.html">Actividad #2</a></li>
+                        <li><a href="actividad_tres.html">Actividad #3</a></li>
+                        <li><a href="actividad_cuatro.html">Actividad #4</a></li>
+                    </ul>
+                </li>
+                <li><a href="participantes.html">Participantes</a></li>
+            </ul>
+        </nav>
+        <!--Fin de Menu-->
+    </header>
+    <div class="lectura">
         <h1>Cuestionario de HTML</h1>
         <br>
-		<iframe src="https://www.educaplay.com/game/5420120-cuestionario_html.html" width="100%" height="600px"></iframe>
-	</div>
+        <iframe src="https://www.educaplay.com/game/5420120-cuestionario_html.html" width="100%" height="600px"></iframe>
+    </div>
 </body>
-<footer>
-	<div>
-		<p><img src="img/Logo1.png" width="100%" height="5"></p>
-	</div>
-	<div>
-		<li><a href="#">Inicio</a></li>
-		<li><a href="#">Lecturas</a></li>
-		<li><a href="#">Multimedia</a></li>
-		<li><a href="#">Actividades</a></li>
-		<li><a href="#">Participantes</a></li>
-	</div>
-	<img src="img/Logo1.png" width="100%" height="2px">
+<footer class="py-5">
+    <div class="row ">
+        <div class="col-12 col-md paddingFooter">
+            <svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="d-block mb-2 letraBlanca" role="img " viewBox="0 0 24 24 " focusable="false ">
+				<title>Product</title>
+				<circle cx="12 " cy="12 " r="10 "></circle>
+				<path
+					d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94 ">
+				</path>
+			</svg>
+            <small class="d-block mb-3 text-muted letraBlanca">© And-Fer-Seb 2020</small>
+        </div>
+        <div class="col-6 col-md ">
+            <h5 class="letraBlanca">Inicio</h5>
+            <ul class="list-unstyled text-small ">
+                <li><a class="text-muted letraBlanca" href="Index.html ">Inicio</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md ">
+            <h5 class="letraBlanca">Lecturas</h5>
+            <ul class="list-unstyled text-small ">
+                <li><a class="text-muted letraBlanca" href="lectura_uno.html ">HTML5</a></li>
+                <li><a class="text-muted letraBlanca" href="lectura_dos.html ">CSS3</a></li>
+                <li><a class="text-muted letraBlanca" href="lectura_tres.html ">POO</a></li>
+                <li><a class="text-muted letraBlanca" href="lectura_cuatro.html ">METODOS DE ORDENAMIENTO</a></li>
+                <li><a class="text-muted letraBlanca" href="lectura_cinco.html ">JAVASCRIPT</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md ">
+            <h5 class="letraBlanca">Multimedia</h5>
+            <ul class="list-unstyled text-small ">
+                <li><a class="text-muted letraBlanca" href="# ">Multimedia</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md ">
+            <h5 class="letraBlanca">Actividades</h5>
+            <ul class="list-unstyled text-small ">
+                <li><a class="text-muted letraBlanca" href="actividad_uno.html ">Actividad #1</a></li>
+                <li><a class="text-muted letraBlanca" href="actividad_dos.html ">Actividad #2</a></li>
+                <li><a class="text-muted letraBlanca" href="actividad_tres.html ">Actividad #3</a></li>
+                <li><a class="text-muted letraBlanca" href="actividad_cuatro.html ">Actividad #4</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md ">
+            <h5 class="letraBlanca">Participantes</h5>
+            <ul class="list-unstyled text-small ">
+                <li><a class="text-muted letraBlanca" href="participantes.html ">Participantes</a></li>
+            </ul>
+        </div>
+    </div>
 </footer>
 
 </html>
