@@ -71,7 +71,9 @@ header{
 }
 
 
-
+h2 {
+	text-align: center;
+}
 /*para os articulos en el Index*/
 #info {
 	width: 85%;
@@ -83,4 +85,27 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+article {
+    width: 320px;
+    margin-left: 0px;
+    /*margin: 2px 2px 2px 2px;*/
+    text-align: justify;
+    background: #fff;
+}
+/*Imagenes redondas*/
+.imgRedonda {
+    width:180px;
+    height:180px;
+    border-radius:150px;
+    /*border:2px solid #666;*/
+
 }
