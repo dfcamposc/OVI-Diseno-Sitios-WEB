@@ -109,3 +109,18 @@ article {
     /*border:2px solid #666;*/
 
 }
+
+.lectura{
+	width: 85%;
+	height: auto;
+	margin: auto;
+    margin-top: auto;
+	margin-top: 40px;
+	flex-wrap: wrap;
+	text-align: justify;
+}
+
+.imagenCentrada{
+	display:block;
+	margin:auto;
+}
