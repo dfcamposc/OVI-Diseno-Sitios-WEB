@@ -52,6 +52,7 @@ header {
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s;
+    z-index: 1 !important;
 }
 
 .submenu li a {
@@ -60,11 +61,13 @@ header {
     color: #fff;
     font-family: 'Open sans';
     text-decoration: none;
+    z-index: 1 !important;
 }
 
 .menu li:hover .submenu {
     visibility: visible;
     opacity: 1;
+    z-index: 1 !important;
 }
 
 h2 {
