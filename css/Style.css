@@ -139,3 +139,10 @@ footer {
 .paddingFooter {
     padding-left: 30px;
 }
+
+.imgRotate {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
