@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/icon/all.min.css">
+    <script src="js/icon/all.min.js"></script>
     <meta charset="utf-8">
     <title>OVI - Diseño de Sitios WEB</title>
 </head>
@@ -18,76 +20,109 @@
     </div>
     <header>
         <!--Inicio de Menu-->
-        <nav class="navegacion">
-            <ul class="menu">
-                <li><a href="Index.html">Inicio</a></li>
-                <li><a href="#">Lecturas</a>
-                    <ul class="submenu">
-                        <li><a href="lectura_uno.html">HTML5</a></li>
-                        <li><a href="lectura_dos.html">CSS3</a></li>
-                        <li><a href="lectura_tres.html">POO</a></li>
-                        <li><a href="lectura_cuatro.html">METODOS DE ORDENAMIENTO</a></li>
-                        <li><a href="lectura_cinco.html">JAVASCRIPT</a></li>
+        <nav class="navegacion ">
+            <ul class="menu ">
+                <li><a href="Index.html ">Inicio</a></li>
+                <li><a href="# ">Lecturas</a>
+                    <ul class="submenu ">
+                        <li><a href="lectura_uno.html ">HTML5</a></li>
+                        <li><a href="lectura_dos.html ">CSS3</a></li>
+                        <li><a href="lectura_tres.html ">POO</a></li>
+                        <li><a href="lectura_cuatro.html ">METODOS DE ORDENAMIENTO</a></li>
+                        <li><a href="lectura_cinco.html ">JAVASCRIPT</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Multimedia</a></li>
-                <li><a href="#">Actividades</a>
+
+
+                <li><a href="#">Multimedia</a>
                     <ul class="submenu">
-                        <li><a href="actividad_uno.html">Actividad #1</a></li>
-                        <li><a href="actividad_dos.html">Actividad #2</a></li>
-                        <li><a href="actividad_tres.html">Actividad #3</a></li>
-                        <li><a href="actividad_cuatro.html">Actividad #4</a></li>
+
+                        <li><a href="Multimedia-Conceptos.html">CONCEPTOS</a></li>
+                        <li><a href="Multimedia-Ejemplos.html">EJEMPLOS</a></li>
                     </ul>
                 </li>
-                <li><a href="participantes.html">Participantes</a></li>
+                <li><a href="# ">Actividades</a>
+                    <ul class="submenu ">
+                        <li><a href="actividad_uno.html ">Actividad #1</a></li>
+                        <li><a href="actividad_dos.html ">Actividad #2</a></li>
+                        <li><a href="actividad_tres.html ">Actividad #3</a></li>
+                        <li><a href="actividad_cuatro.html ">Actividad #4</a></li>
+                    </ul>
+                </li>
+                <li><a href="participantes.html ">Participantes</a></li>
             </ul>
         </nav>
         <!--Fin de Menu-->
     </header>
-    <div id="info">
-        <article>
-            <div align="center">
-                <img src='img/iconos/participantes/andres.jpg' class='imgRedonda' border="1px" />
+    <div id="info" class="row">
+        <div class="col-md-4">
+            <article>
+                <div class="card" style="width: 18rem;">
+                <img src="img/iconos/participantes/andres.jpg" class="card-img-top imgRedonda mx-auto" style="width: 200px;" border="1px" />
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h2> Bryan Andrés Casallas Florez </h2><br>
+                        <i class="fas fa-university"></i> Ingenieria de sistemas <br>
+                        <i class="fas fa-envelope"></i> Bacasallasf@unadvirtual.edu.co <br>
+                        <i class="fas fa-envelope"></i> Andresf1430@hotmail.com <br>
+                        <i class="fas fa-mobile-alt"></i> 3057787459 <br>
+                        <i class="fab fa-skype"></i> 3057787459
+                        </p>
+                    </div>
+                </div>
+            </article>         
+        </div>
+
+        <div class="col-md-4">
+            <article>
+            <div class="card" style="width: 20rem;">
+                <img src="img/iconos/participantes/diego.jpg" class="card-img-top imgRedonda mx-auto" style="width: 200px;">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h2> Diego Fernando Campos Cárdenas </h2><br>
+                        <i class="fas fa-university"></i> Ingenieria de sistemas <br>
+                        <i class="fas fa-envelope"></i> camposdiego68@hotmail.com <br>
+                        <i class="fas fa-envelope"></i> dfcamposc@unadvirtual.edu.co <br>
+                        <i class="fas fa-mobile-alt"></i> 3203185917 <br>
+                        <i class="fab fa-skype"></i> camposdiego68
+                    </p>
+                </div>
             </div>
-            <h2>Bryan Andrés Casallas Flores</h2>
-            <p>
-                <h3>Programa: Ingenieria de sistemas</h3>
-                Bacasallasf@unadvirtual.edu.co Andresf1430@hotmail.com <br> Skype : 3057787459 <br> Telefono: 3057787459
-            </p>
-        </article>
-        <article>
-            <div align="center">
-                <img src='img/iconos/participantes/diego.jpg' class='imgRedonda' border="1px" />
+            </article>
+        </div>
+
+
+        <div class="col-md-4">
+            <article>
+            <div class="card" style="width: 21rem;">
+                <img src="img/iconos/participantes/sebastian.jpeg" class="card-img-top imgRedonda mx-auto imgRotate" style="width: 200px;">
+                <div class="card-body">
+                    <p class="card-text">
+                        <h2>Sebastian Felipe Sepúlveda Gallo</h2><br>
+                        <i class="fas fa-university"></i> Ingenieria de sistemas <br>
+                        <i class="fas fa-envelope"></i> sfsepulvedag@unadvirtual.edu.co <br>
+                        <i class="fas fa-envelope"></i> sebastian.sepulveda0402@gmail.com <br>
+                        <i class="fas fa-mobile-alt"></i> 3012149920 <br>
+                        <i class="fab fa-skype"></i> live:felipe0.123
+                    </p>
+                </div>
             </div>
-            <h2>Diego Fernando Campos Cárdenas</h2>
-            <p>
-                <h3>Programa: Ingenieria de sistemas</h3>
-                Correo:camposdiego68@hotmail.com Correo:dfcamposc@hunadvirtual.edu.co Skype:camposdiego68 <br> Telefono: 3203185917
-            </p>
-        </article>
-        <article>
-            <div align="center">
-                <img src='img/iconos/participantes/sebastian.jpeg' class='imgRedonda' border="1px" />
-            </div>
-            <h2>Sebastian Felipe Sepulveda Gallo</h2>
-            <p>
-                <h3>Programa: Ingenieria de sistemas</h3>
-                sfsepulvedag@unadvirtual.edu.co sebastian.sepulveda0402@gmail.com
-                <br> Skype: live:felipe0.123 <br> Telefono: 301 2149920
-            </p>
-        </article>
+            </article>
+        </div>
+
     </div>
+    <br>
 </body>
 <footer class="py-5">
     <div class="row ">
         <div class="col-12 col-md paddingFooter">
             <svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="d-block mb-2 letraBlanca" role="img " viewBox="0 0 24 24 " focusable="false ">
-                <title>Product</title>
-                <circle cx="12 " cy="12 " r="10 "></circle>
-                <path
-                    d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94 ">
-                </path>
-            </svg>
+				<title>Product</title>
+				<circle cx="12 " cy="12 " r="10 "></circle>
+				<path
+					d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94 ">
+				</path>
+			</svg>
             <small class="d-block mb-3 text-muted letraBlanca">© And-Fer-Seb 2020</small>
         </div>
         <div class="col-6 col-md ">
@@ -109,7 +144,8 @@
         <div class="col-6 col-md ">
             <h5 class="letraBlanca">Multimedia</h5>
             <ul class="list-unstyled text-small ">
-                <li><a class="text-muted letraBlanca" href="# ">Multimedia</a></li>
+                <li><a class="text-muted letraBlanca" href="Multimedia-Conceptos.html">CONCEPTOS</a></li>
+                <li><a class="text-muted letraBlanca" href="Multimedia-Ejemplos.html">EJEMPLOS</a></li>
             </ul>
         </div>
         <div class="col-6 col-md ">

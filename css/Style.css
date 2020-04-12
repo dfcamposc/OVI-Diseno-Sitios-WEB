@@ -52,6 +52,7 @@ header {
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s;
+    z-index: 1 !important;
 }
 
 .submenu li a {
@@ -60,12 +61,17 @@ header {
     color: #fff;
     font-family: 'Open sans';
     text-decoration: none;
+<<<<<<< HEAD
     
+=======
+    z-index: 1 !important;
+>>>>>>> ca207fb817cd07f132c2bfb10b5844058b35eea2
 }
 
 .menu li:hover .submenu {
     visibility: visible;
     opacity: 1;
+    z-index: 1 !important;
 }
 
 h2 {
@@ -139,4 +145,11 @@ footer {
 
 .paddingFooter {
     padding-left: 30px;
+}
+
+.imgRotate {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
 }
